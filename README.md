@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Aethera-One: AI-Powered Mental Health Support on Sonic 🧠⛓️
 
 > An autonomous AI therapist powered by advanced NLP and emotional intelligence, providing personalized mental health support while ensuring privacy through blockchain technology. Built on Sonic Blaze Testnet with Zerepy agents.
