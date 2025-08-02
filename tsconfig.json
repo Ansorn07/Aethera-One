@@ -22,6 +22,7 @@
       "@/*": ["./*"]
     }
   },
+<<<<<<< HEAD
   "include": [
     "next-env.d.ts",
     "**/*.ts",
@@ -29,5 +30,8 @@
     ".next/types/**/*.ts",
     "lib/db/dbConfig.jsx"
   ],
+=======
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+>>>>>>> 6c4e7886620c039c0a0d79987b939e6aef92bf4a
   "exclude": ["node_modules"]
 }

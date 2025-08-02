@@ -47,7 +47,11 @@ export default function Home() {
 
   const welcomeSteps = [
     {
+<<<<<<< HEAD
       title: "Hi, I'm Aethera👋",
+=======
+      title: "Hi, I'm Aethera 👋",
+>>>>>>> 6c4e7886620c039c0a0d79987b939e6aef92bf4a
       description:
         "Your AI companion for emotional well-being. I'm here to provide a safe, judgment-free space for you to express yourself.",
       icon: Waves,
@@ -362,4 +366,8 @@ export default function Home() {
       {/* Add custom animations to globals.css */}
     </div>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6c4e7886620c039c0a0d79987b939e6aef92bf4a

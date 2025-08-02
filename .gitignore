@@ -2,16 +2,23 @@
 
 # dependencies
 /node_modules
+<<<<<<< HEAD
 /backend
 ./backend
 /.pnp
 .pnp.*
 .yarn/*
 expo-app
+=======
+/.pnp
+.pnp.*
+.yarn/*
+>>>>>>> 6c4e7886620c039c0a0d79987b939e6aef92bf4a
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+<<<<<<< HEAD
 /.cursorrules
 structure.md
 /idea.txt
@@ -33,19 +40,34 @@ auto-commit.log
 /push_changes.sh
 test.md
 structuree.md
+=======
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+>>>>>>> 6c4e7886620c039c0a0d79987b939e6aef92bf4a
 # production
 /build
 
 # misc
 .DS_Store
 *.pem
+<<<<<<< HEAD
 /prerun.sh
 /postrun.sh
+=======
+
+>>>>>>> 6c4e7886620c039c0a0d79987b939e6aef92bf4a
 # debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+<<<<<<< HEAD
 /Zerepy
 ./Zerepy
 /.Zerepy
@@ -83,3 +105,15 @@ ignition/deployments/chain-31337
 
 # Private keys
 secrete.txt
+=======
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+>>>>>>> 6c4e7886620c039c0a0d79987b939e6aef92bf4a

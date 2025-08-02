@@ -519,7 +519,11 @@ export default function TherapyPage() {
                 <Bot className="w-5 h-5" />
               </div>
               <div>
+<<<<<<< HEAD
                 <h2 className="font-semibold">Aethera</h2>
+=======
+                <h2 className="font-semibold">AI Therapist</h2>
+>>>>>>> 6c4e7886620c039c0a0d79987b939e6aef92bf4a
                 <p className="text-sm text-muted-foreground">
                   {messages.length} messages
                 </p>
@@ -552,7 +556,11 @@ export default function TherapyPage() {
                         </motion.div>
                       </div>
                       <span className="bg-gradient-to-r from-primary/90 to-primary bg-clip-text text-transparent">
+<<<<<<< HEAD
                         Aethera
+=======
+                        AI Therapist
+>>>>>>> 6c4e7886620c039c0a0d79987b939e6aef92bf4a
                       </span>
                     </div>
                     <p className="text-muted-foreground mt-2">
@@ -621,7 +629,11 @@ export default function TherapyPage() {
                           <div className="flex items-center justify-between">
                             <p className="font-medium text-sm">
                               {msg.role === "assistant"
+<<<<<<< HEAD
                                 ? "Aethera"
+=======
+                                ? "AI Therapist"
+>>>>>>> 6c4e7886620c039c0a0d79987b939e6aef92bf4a
                                 : "You"}
                             </p>
                             {msg.metadata?.technique && (
@@ -656,7 +668,11 @@ export default function TherapyPage() {
                       </div>
                     </div>
                     <div className="flex-1 space-y-2">
+<<<<<<< HEAD
                       <p className="font-medium text-sm">Aethera</p>
+=======
+                      <p className="font-medium text-sm">AI Therapist</p>
+>>>>>>> 6c4e7886620c039c0a0d79987b939e6aef92bf4a
                       <p className="text-sm text-muted-foreground">Typing...</p>
                     </div>
                   </motion.div>
@@ -734,4 +750,8 @@ export default function TherapyPage() {
       </div>
     </div>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6c4e7886620c039c0a0d79987b939e6aef92bf4a

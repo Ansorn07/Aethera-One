@@ -38,7 +38,11 @@ export function Header() {
             <AudioWaveform className="h-7 w-7 text-primary animate-pulse-gentle" />
             <div className="flex flex-col">
               <span className="font-semibold text-lg bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent">
+<<<<<<< HEAD
               Aethera-One
+=======
+                Aethera-One
+>>>>>>> 6c4e7886620c039c0a0d79987b939e6aef92bf4a
               </span>
               <span className="text-xs dark:text-muted-foreground">
                 Your mental health Companion{" "}
@@ -136,4 +140,8 @@ export function Header() {
       {/* <LoginModal /> */}
     </div>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6c4e7886620c039c0a0d79987b939e6aef92bf4a

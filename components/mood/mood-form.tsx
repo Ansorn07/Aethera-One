@@ -150,4 +150,8 @@ export function MoodForm({ onSuccess }: MoodFormProps) {
       </Button>
     </div>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6c4e7886620c039c0a0d79987b939e6aef92bf4a
