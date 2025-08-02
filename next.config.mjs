@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // ✅ Linting and TypeScript settings
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -7,44 +8,42 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
 
+  // ✅ Supported experimental features (only include what you use)
   experimental: {
-    appDir: true,
-    suppressHydrationWarning: true,
-    skipTypeChecking: true,
-    skipMiddlewareUrlNormalize: true,
-    missingSuspenseWithCSRBailout: false,
+    serverActions: {}, // Use empty object (not true) to avoid config error
   },
 
+  // ✅ Core Next.js config
   reactStrictMode: false,
 
-  // Disable image optimization warnings
+  // ✅ Disable image optimization warnings
   images: {
     unoptimized: true,
   },
 
-  // Ignore specific page extensions
+  // ✅ Customize allowed page extensions
   pageExtensions: ["tsx", "ts", "jsx", "js"].filter(
     (ext) => !ext.includes("spec")
   ),
 
-  // Configure webpack
+  // ✅ Webpack configuration
   webpack: (config, { isServer, dev }) => {
-    // Ignore specific modules that might cause issues
     config.resolve.alias = {
       ...config.resolve.alias,
       sharp$: false,
       canvas$: false,
     };
-
     return config;
   },
 
-  // Suppress specific console warnings
+  // ✅ Improve dev performance by limiting active page entries
   onDemandEntries: {
-    // Reduce console noise
     maxInactiveAge: 25 * 1000,
     pagesBufferLength: 2,
   },
+
+  // ✅ Moved out of experimental in Next.js 15
+  skipMiddlewareUrlNormalize: true,
 };
 
 export default nextConfig;
